@@ -1,0 +1,17 @@
+name: Idea
+description: A suggestion for the pack or the server
+labels: [idea]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve
+      description: What is annoying, missing or unbalanced today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
